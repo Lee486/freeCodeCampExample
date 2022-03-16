@@ -1,3 +1,7 @@
 .venv/
+
 products/__pycache__/
 products/migrations/
+
+tryJango/__pycache__/
+tryJango/migrations/

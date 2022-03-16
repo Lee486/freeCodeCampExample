@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1> About </h1>
+<h3>{{ text|capfirst|upper }}</h3>
+<p> ta-da <p>
+
+<p>
+    {{ text }}, {{ number }}
+    {{list}}
+</p>
+<ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+</ul>
+
+<p> "For Loop + If-condition"</p>
+{% for sub in list %} 
+    {% if sub == 456 %}
+        <li> {{ forloop.counter }} - {{sub|add:22}} </li>
+    {% elif sub == 789 %}
+        <li> "not network "</li>
+    {% else %}
+         <li> {{ forloop.counter }} - {{sub}} </li>
+    {% endif %}
+{% endfor %}
+
+{% endblock %}
