@@ -20,4 +20,4 @@ create database: python manage.py migrate
 
 
 runserver: python manage.py runserver
-[alternatively: python manage.py runserver 7000]
+[alt: python manage.py runserver 7000]
