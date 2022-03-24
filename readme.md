@@ -1,6 +1,6 @@
 Tutorials at: 
 - https://djangobook.com/django-tutorials/mastering-django-structure/
-- https://youtu.be/F5mRW0jo-U4?t=10304 
+- https://youtu.be/F5mRW0jo-U4?t=10808
 
 
 terminal stuff: 
